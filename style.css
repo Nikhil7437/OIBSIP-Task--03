@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+*
+{
+ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.hero
+{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+  
+}
+.hero img
+{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main
+{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background-color: #000000ac;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+   
+    margin-bottom: 50px;
+   
+}
+nav a{
+
+    
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.box
+{
+    width: 100%;
+    /* background-color: aqua; */
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.inner-box
+{
+    width: 40%;
+ 
+    height: 100vh;
+    
+  
+}
+.inner-box label
+{
+    font-size:25px ;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  
+}
+.inner-box input
+{
+    font-size:20px ;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#submit
+{
+    font-size:20px;
+    font-weight: 700;
+}
+#des
+{
+    height: 100px;
+}
+
+.ctnt
+{
+  width:55%;
+  height: 100%;
+    /* background-color: pink; */
+    /* margin: 20px; */
+}
+
+li{
+    font-size:20px;
+    font-weight: 700;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.ctnt
+{
+    overflow-y: scroll;
+}
+.items
+{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgba(207, 246, 255, 0.845);
+    
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    
+}
+#done
+{
+    position: absolute;
+    margin-top: 0;
+  right: 90px;
+  top: 16%;
+  
+}
+.listtitle
+{
+    width: 100px;
+    max-height: 100px;
+  
+    overflow-y:scroll;
+    /* overflow: hidden; */
+    font-size: 20px;
+}
+.description
+{
+    width: 250px;
+    max-height: 200px;
+    overflow-y:scroll;
+    font-size: 15px;
+
+}
+#message
+{
+    top: 11%;
+    left: 15%;
+    position: absolute;
+}
